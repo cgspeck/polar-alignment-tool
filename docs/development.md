@@ -10,6 +10,19 @@ On subsequent runs: `source ~/path/to/venv/bin/activate`.
 
 # Platform IO cheatsheet
 
+Also see [Quick Start](https://docs.platformio.org/en/latest/quickstart.html).
+
+## Find / list supported boards
+
+`platformio boards uno`
+
+Also see [Embedded boards explorer](https://platformio.org/boards).
+
 ## Create a project
 
-Also see [Quick Start](https://docs.platformio.org/en/latest/quickstart.html).
+`platformio init --board ${boardid1} --board ${boardid2} ...`
+
+e.g.
+
+`platformio init --board uno`
+

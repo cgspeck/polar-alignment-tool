@@ -26,3 +26,13 @@ e.g.
 
 `platformio init --board uno`
 
+Rerun init to add more boards
+
+## Build / Clean / Upload
+
+```
+platformio run
+platformio run -t clean
+platformio run -t upload
+```
+

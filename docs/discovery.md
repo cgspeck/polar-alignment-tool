@@ -1,5 +1,17 @@
 # Polar Alignment Tool
 
+## Why?
+
+No equivalent to Polaris in the Southern hemisphere, the Sothern Cross and pointers can
+be used to approximate south.
+
+To be able to find south when certain features of the sky is obscured by buildings, structures,
+or during day time.
+
+To facilitate long exposure astro-photography.
+
+Because I have the parts, want to play with this stuff & why not?
+
 ## Objectives
 
 * rugged enclosed stand-alone project

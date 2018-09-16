@@ -13,6 +13,7 @@
   * $37.97 https://core-electronics.com.au/serial-enabled-16x2-lcd-red-on-black-5v.html
   * serial interface, rx only, can up/down contrast
 * SparkFun 9DoF Sensor Stick
+  * LSM9DS1
   * i2c or spi
   * $16.63 https://core-electronics.com.au/sparkfun-9dof-sensor-stick.html
 * 3 x buttons (OK, UP, DOWN)
@@ -44,4 +45,14 @@
 * 3-4 interrupts
 * Spi
 * serial out
+
+### Firmware
+
+#### i2c libraries
+
+[i2c vs 1w](https://forum.arduino.cc/index.php?topic=176060.0)
+[great i2c tutorial / spec writeup](http://www.robot-electronics.co.uk/i2c-tutorial)
+[Wire reference library](https://www.arduino.cc/en/Reference/Wire)
+[Alternatives to Wire library (just need master)](https://arduino.stackexchange.com/questions/11689/alternatives-to-wire-library-for-i2c)
+[i2c master library](https://github.com/rambo/I2C)
 

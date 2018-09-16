@@ -36,3 +36,14 @@ platformio run -t clean
 platformio run -t upload
 ```
 
+## Find a library (indexed/community)
+
+```
+platformio lib search lsm9ds1 --framework=arduino
+...
+platformio lib install 1825
+```
+
+Then manually add it to `platformio.ini` under `[common_env_data]` (until
+[this issue](https://github.com/platformio/platformio-core/issues/1028) is resolved).
+
